@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="register.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            HandLoomLegacy
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Best Offer</a>
+            <a href="#">Our Sites</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <h1>Registration</h1>
+    <form id="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+        <input type="checkbox" id="agree-terms" name="agree-terms" required>
+        <label for="agree-terms">I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a></label><br>
+
+        <button type="button" id="register-button">Register</button>
+    </form>
+
+    <div id="registration-result"></div>
+
+    
+</body>
+</html>
